@@ -1,0 +1,9 @@
+<button data-e2e="increment-button" (click)="increment()">Increment</button>
+
+<div>
+  Current Count: <span data-e2e="current-count">{{ count$ | async }}</span>
+</div>
+
+<button data-e2e="decrement-button" (click)="decrement()">Decrement</button>
+
+<button data-e2e="reset-button" (click)="reset()">Reset Counter</button>
