@@ -1,4 +1,6 @@
-export const getIncrementButton = () => cy.get('[data-e2e=increment-button]');
-export const getDecrementButton = () => cy.get('[data-e2e=decrement-button]');
-export const getResetButton = () => cy.get('[data-e2e=reset-button]');
-export const getCurrentCount = () => cy.get('[data-e2e=current-count]');
+import { getElementByTestId } from '@ngrx-cypress-ng13/util-e2e-functions';
+
+export const getIncrementButton = () => getElementByTestId('increment-button');
+export const getDecrementButton = () => getElementByTestId('decrement-button');
+export const getResetButton = () => getElementByTestId('reset-button');
+export const getCurrentCount = () => getElementByTestId('current-count');

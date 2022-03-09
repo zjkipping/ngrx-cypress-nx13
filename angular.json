@@ -3,6 +3,7 @@
   "projects": {
     "test": "apps/test",
     "test-e2e": "apps/test-e2e",
-    "test-lib": "libs/test-lib"
+    "test-lib": "libs/test-lib",
+    "util-e2e-functions": "libs/util-e2e-functions"
   }
 }

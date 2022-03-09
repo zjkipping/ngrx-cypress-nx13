@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/util-e2e-functions",
+  "sourceRoot": "libs/util-e2e-functions/src",
+  "prefix": "ngrx-cypress-ng13",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/util-e2e-functions"],
+      "options": {
+        "jestConfig": "libs/util-e2e-functions/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/util-e2e-functions/src/**/*.ts",
+          "libs/util-e2e-functions/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

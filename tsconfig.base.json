@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ngrx-cypress-ng13/test-lib": ["libs/test-lib/src/index.ts"]
+      "@ngrx-cypress-ng13/test-lib": ["libs/test-lib/src/index.ts"],
+      "@ngrx-cypress-ng13/util-e2e-functions": [
+        "libs/util-e2e-functions/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
